@@ -263,7 +263,7 @@ class ChannelCopyBot:
     async def keep_alive(self):
         """الحفاظ على اتصال البوت نشطًا"""
         async def ping():
-             0  +
+             
              
             while True:
                 try:
@@ -285,4 +285,5 @@ if __name__ == '__main__':
     except KeyboardInterrupt:
         logger.info("تم إيقاف البوت")
     except Exception as e:
+
         logger.error(f"حدث خطأ غير متوقع: {e}")
